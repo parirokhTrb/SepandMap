@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiTablePagination-root{
+  direction: initial;
+}
+
+ .MuiInputLabel-formControl{
+  left: unset !important;
+  right: 30px;
+}
+.MuiDialog-root{
+  direction: rtl;
+}
+.MuiDialogContent-root{
+  text-align: center;
+}
+
+.MuiTable-root tr th,.MuiTable-root tr td{
+  text-align: right;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.container input:checked ~ .checkmark {
+  border:2px solid #2196F3;
+}
+
+.tableColor {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.closeModal{
+  margin: 10px 10px 0 0;
+  cursor: pointer;
+}
